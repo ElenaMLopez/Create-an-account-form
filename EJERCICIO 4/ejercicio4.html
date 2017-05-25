@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Ejecicio de creación de un formulario para crear una cuenta nueva tipo facebook  -->
+
+  <meta charset="utf-8">
+  <title>Ejercio JS 4</title>
+  <link rel="stylesheet" href="ejercicio4.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Create an account</h2>
+    <h4>It's free and always will be</h4>
+
+    <div class="registerForm">
+      <input class="inputName" id="firstNameInput" type="text" name="first name" value="First name">
+      <input class="inputName surname" id="surnameInput" type="text" name="sur name" value="Surname">
+      <input class="input" id="emailInput" type="text" name="email input" value="Email or mobile number">
+      <input class="input" id="reEnterEmail" type="text" name="email" value="Re-enter email or mobile number">
+      <input class="input" id="password" type="text" name="password" value="New password">
+    </div>
+
+    <div class="birthday">
+      <h4>Birthday</h4>
+      <div class="birthdayForm">
+        <select id="day" class="day" name="day">
+          <option id="dayOption" value="dayDefaultOption">Day</option>
+        </select>
+        <select id="month" class="month" name="month">
+          <option value="monthDefaultOption">Month</option>
+        </select>
+        <select id="year" class="year" name="year">
+          <option value="yearDefaultOption">Year</option>
+        </select>
+        <article><a href="#">Why do I need to provide my date of birth?</a>
+        </article>
+      </div>
+    </div>
+
+    <form class="sexForm" action="index.html" method="post">
+
+      <input type="radio" name="sexForm" value="gender">
+      <label for="female">Female</label>
+      <input type="radio" name="sexForm" value="gender">
+      <label for="male">Male</label>
+
+    </form>
+    <p class="terms">By clicking Create an account, you agree our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.
+    </p>
+
+    <button id="createAccountButton"class="createButton" type="button" name="createAccountButton">Create an Account</button>
+
+  </div>
+
+
+  <script src="ejercicio4.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(229, 230, 233);
+  width: 500px;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(54, 50, 240);
+}
+
+.input, .inputName, .createButton{
+  border-radius: 5px;
+}
+
+.input, .inputName{
+  color: rgb(99, 99, 97);
+  border: 0;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.input{
+  height: 5vh;
+  width: 92%;
+}
+
+.inputName{
+  height: 5vh;
+  width: 45%;
+}
+
+.surname{
+  margin-left: 3px
+}
+
+.birthday{
+  font-size: 0.5em;
+}
+
+.birthdayForm{
+  width: 80%;
+  display: flex;
+}
+
+.year{
+  margin-right: 15px;
+}
+
+.sexForm{
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.terms {
+  font-size: 0.5em;
+  width: 80%;
+}
+
+.createButton{
+  font-size: 1.2em;
+  color: white;
+  height: 6vh;
+  width: 70%;
+  margin-top: 10px;
+  background-color: rgb(9, 166, 6);
+}

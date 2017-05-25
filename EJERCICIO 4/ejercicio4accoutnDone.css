@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background:  rgb(235, 236, 241);
+}
+
+.greeting{
+    width: 40%;
+    border: 2px solid rgb(5, 2, 125);
+    background-color: rgb(229, 230, 233);
+    text-align: center;
+
+}
